@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Passion+One:wght@400;700;900&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:'Passion One', cursive;
+    
+
+}
+
+
+html, body{
+    min-height: 100vh;
+    background-color: white;
+    font-family: var(--fonte1);
+}
+
+
+
+header{
+    background-color: black;
+    color: white;
+    margin: auto;
+    height: 150px
+    
+   
+
+}
+
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-family: var(--fonte2);
+    
+    
+   
+}
+
+header p {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.estrofe{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 2.5vw;
+    
+    /*   font-size: 2.5vw; essa op~~ao deixa as letras responsivads    */
+}
+
+
+
+div#imagem{
+    background-image: url(imagens/background001.jpg);
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+    
+
+}
+
+div#imagem2{
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+div article{
+    background-color: rgba(23, 21, 21, 0.281);
+    
+    background-size: cover;
+    margin-left: 5%;
+    margin-top: 1%;
+    transform: translate(5%, -5%); /*utiliza-se para colocar a imagem no centro(vertical)*/
+    display: inline-block;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 40p;
+    text-align: center;
+
+}
